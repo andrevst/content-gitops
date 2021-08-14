@@ -213,7 +213,10 @@ Perform a sync:
 fluxctl sync --k8s-fwd-ns flux
 Check our namespaces:
 
+```
 kubectl get namespaces
+```
+
 We should see that the lamanifest namespace hasn't been created.
 
 Create the Application Deployment YAML
